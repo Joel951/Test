@@ -64,7 +64,7 @@ body {
 	font-family: 'Rubik', sans-serif;
 	font-size: 0.875rem;
 	color: #666;
-	background-color: #fafafa;
+	background-color: rgb(39, 60, 164);
 	overflow-x: hidden;
 	height: 100%;
 }
@@ -4991,3 +4991,15 @@ blockquote p {
                   0 0 4px hsl(130, 100%, 10%);
   opacity: 0;
 }
+.nav__option{
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.nav__option:hover{
+	background-color:#001427;
+	padding: 8px;
+	border-radius: 20px;
+	color: white !important;
+}
+
